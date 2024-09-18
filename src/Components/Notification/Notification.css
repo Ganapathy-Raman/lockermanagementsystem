@@ -1,0 +1,83 @@
+.notification-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.card {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.card-body {
+    text-align: center; 
+}
+
+.go-back-button {
+    margin-top: 20px; 
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.badge {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card-body {
+    font-size: 16px;
+    color: #555;
+}
+
+.card-body p {
+    margin: 10px 0;
+}
+
+.go-back-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.go-back-button:hover {
+    background-color: #0056b3;
+}
+
+.go-back-button:focus {
+    outline: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.badge {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 2px 8px; 
+    border-radius: 12px; 
+    font-size: 14px; 
+    font-weight: bold; 
+}
